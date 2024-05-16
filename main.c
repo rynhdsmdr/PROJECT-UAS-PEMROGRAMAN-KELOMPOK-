@@ -5,9 +5,9 @@
 
 int main() {
     char username[MAX_LOGIN_LENGTH], password[MAX_PASSWORD_LENGTH];
-    printf("Masukkan username: ");
+    printf("enter your username: ");
     scanf("%s", username);
-    printf("Masukkan password: ");
+    printf("enter your password: ");
     scanf("%s", password);
 
     if (login(username, password)) {
@@ -82,7 +82,7 @@ int main() {
             }
         } while (pilihan != 7);
     } else {
-        printf("Login gagal. Silakan coba lagi.\n");
+        printf("Login failed. please try again.\n");
     }
 
     return 0;
