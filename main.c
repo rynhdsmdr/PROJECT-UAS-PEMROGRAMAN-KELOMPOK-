@@ -10,7 +10,7 @@ int main() {
     printf("enter your password: ");
     scanf("%s", password);
 
-    if (logi(username, password)) {
+    if (login(username, password)) {
         int pilihan;
         do {
             printf("\nMenu:\n");
@@ -70,7 +70,7 @@ int main() {
                 case 6: {
                     pembayaran();
                     break;
-                
+                }
                 case 7: {
                     printf("Terima kasih, sampai jumpa!\n");
                     break;
