@@ -1,3 +1,8 @@
+Anggota:
+- Riyan Hadi Samudra
+- Tasya Zahrani
+- Alief Aulia SAG
+
 cara menjalankan kode program tersebut adalah sebagai berikut :
 
 buka command prompt atau terminal pada komputer.
