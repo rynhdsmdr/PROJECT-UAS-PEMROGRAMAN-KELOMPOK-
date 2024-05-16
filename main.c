@@ -5,7 +5,7 @@
 
 int main() {
     char username[MAX_LOGIN_LENGTH], password[MAX_PASSWORD_LENGTH];
-    printf("enter your username: ");
+    printf("enter your username: ")
     scanf("%s", username);
     printf("enter your password: ");
     scanf("%s", password);
