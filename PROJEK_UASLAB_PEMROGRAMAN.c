@@ -83,7 +83,6 @@ void kurangiproduk(char *namaproduk, int jumlah) {
 // Fungsi untuk menampilkan daftar produk dari file
 void tampilkanproduk() {
     FILE *file = fopen("produk.txt", "r");
-
     if (file != NULL) {
         struct Produk produk;
         printf("Nama\t\tJumlah\t\tHarga\n");
@@ -100,7 +99,6 @@ void tampilkanproduk() {
 void pembayaran() {
     FILE *file = fopen("produk.txt", "r");
     float total = 0;
-
     if (file != NULL) {
         struct Produk produk;
         while (fscanf(file, "%s %d %f", produk.nama, &produk.jumlah, &produk.harga) != EOF) {
