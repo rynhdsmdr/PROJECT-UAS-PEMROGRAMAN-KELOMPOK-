@@ -7,6 +7,10 @@
 #define MAX_PASSWORD_LENGTH 20
 #define MAX_MEMBER_NAME_LENGTH 50
 #define MAX_MEMBER_EMAIL_LENGTH 50
+#define FILE_USERNAME "logins.txt"
+#define FILE_PRODUK "produk.txt"
+#define FILE_PEMBAYARAN "pembayaran.txt"
+#define FILE_MEMBERS "members.txt"
 
 // Struct untuk menyimpan informasi produk
 struct Produk {
