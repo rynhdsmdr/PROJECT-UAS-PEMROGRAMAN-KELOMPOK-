@@ -5,12 +5,12 @@
 
 int main() {
     char username[MAX_LOGIN_LENGTH], password[MAX_PASSWORD_LENGTH];
-    printf("enter your username: ")
+    printf("enter your username: ");
     scanf("%s", username);
     printf("enter your password: ");
     scanf("%s", password);
 
-    if (login(username, password)) {
+    if (logi(username, password)) {
         int pilihan;
         do {
             printf("\nMenu:\n");
@@ -70,7 +70,7 @@ int main() {
                 case 6: {
                     pembayaran();
                     break;
-                }
+                
                 case 7: {
                     printf("Terima kasih, sampai jumpa!\n");
                     break;
